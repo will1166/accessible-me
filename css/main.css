@@ -70,3 +70,7 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
+
+a:focus{
+  outline : 4px solid black;  
+}
