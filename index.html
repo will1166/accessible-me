@@ -34,8 +34,8 @@
       <h2>Welcome to Jam Box</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
-      <section id="reservation" role="region" class="owner">
-        <h2>Meet the owner</h2>
+      <section id="reservation" role="region" aria-labelledby="owner-heading" class="owner">
+        <h2 id="owner-heading">Meet the owner</h2>
         <ul itemscope itemtype="https://schema.org/Person">
           <li itemprop="name">Name: John Doe</li>
           <li itemprop="jobTitle">Title: CEO</li>
@@ -52,8 +52,8 @@
           </div>
         </div>
       </section>
-      <section role="region" class="contact-section">
-        <h3 aria-label="please fill out your contact so we can get back to you">Contact Us</h3>
+      <section role="region" aria-labelledby="contact-heading" class="contact-section">
+        <h3 id="contact-heading">Contact Us</h3>
         <form role="form" action="thanks.html">
           <label for="yourName">Name</label>
           <input type="text" id="yourName" name="yourName" placeholder="Full Name">
