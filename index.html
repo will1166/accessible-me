@@ -23,9 +23,9 @@
       <nav id="navigationbar" role="navigation">
         <ul>
           <li><a href="#header">Home</a></li>
-          <li><a href="#products" aria-label="learn more about Jam Box's products">Products</a></li>
-          <li><a href="#reservation" aria-label="find the contact to make a reservation">Reservation</a></li>
-          <li><a href="#address" aria-label="know where Jam Box Studios is located">Studio</a></li>
+          <li><a href="#products" aria-label="learn more about our products">Products</a></li>
+          <li><a href="#reservation" aria-label="contact the studio owner">Reservation</a></li>
+          <li><a href="#address" aria-label="find our location">Studio</a></li>
         </ul>
       </nav>
       <img src="https://picsum.photos/1200/900" alt="random images" class="banner">
@@ -35,14 +35,14 @@
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
       <section id="reservation" role="region" class="owner">
-        <h3>Meet the owner</h3>
+        <h2>Meet the owner</h2>
         <ul itemscope itemtype="https://schema.org/Person">
           <li itemprop="name">Name: John Doe</li>
           <li itemprop="jobTitle">Title: CEO</li>
           <li itemprop="email">Email: johnjoe@jambox.ca</li>
           <li itemprop="telephone">Phone: 613-000-0000</li>
         </ul>
-        <h3 id="address">Address</h3>
+        <h2 id="address">Address</h2>
         <div itemscope itemtype="https://schema.org/Organization">
           <span itemprop="name">Jambox Studios</span>
           <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
@@ -53,7 +53,7 @@
         </div>
       </section>
       <section role="region" class="contact-section">
-        <h3>Contact Us</h3>
+        <h3 aria-label="please fill out your contact so we can get back to you">Contact Us</h3>
         <form role="form" action="thanks.html">
           <label for="yourName">Name</label>
           <input type="text" id="yourName" name="yourName" placeholder="Full Name">
@@ -61,7 +61,7 @@
           <input type="email" id="yourEmail" name="yourEmail" placeholder="Email">
           <label for="yourSubject">Subject</label>
           <input type="text" id="yourSubject" name="yourSubject" placeholder="Subject">
-          <label for="yourMessage">Your Message</label>
+          <label for="yourMessage" aria-label="tell us what you need from our studio">Your Message</label>
           <textarea id="yourMessage" name="yourMessage"></textarea>
           <button type="submit" aria-label="Submit form">Send</button>
         </form>
